@@ -9,7 +9,7 @@ const Home = () => {
     <>
     <div className='d-flex flex-column min-vh-100 p-0 w-100 position-relative '>
        <div className="p-0 w-100 position-relative  " style={{height:'450px'}}>
-        <img className='img-fluid w-100 p-0 h-100' style={{objectFit:'cover',objectPosition:'top'}} src="public/images/doc.jpg" alt="" />
+        <img className='img-fluid w-100 p-0 h-100' style={{objectFit:'cover',objectPosition:'top'}} src="/images/doc.jpg" alt="" />
         <div className='p-3 w-50 top-0   position-absolute h-100 bg-transparent text-wrap overflow-auto'id="home"style={{marginLeft:'20%'}}>
           <h1 className='w-75 lh-base ' style={{color:'rgba(8, 56, 108, 1)'}}> Your Partner in health 
             <br />and wellness

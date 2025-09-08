@@ -37,10 +37,10 @@ const doc=useSelector(state=>state.appointmentReducer.doctor?.filter(item=>patie
   return (
     <>
     <div className='w-100 d-flex px-4 justify-content-evenly align-items-center flex-column flex-md-row'style={{height:'400px',backgroundColor:'#00ac9b'}}>
-        <img className='img-fluid h-100' style={{}} src="public/images/yourapp.jpg" alt="" />
+        <img className='img-fluid h-100' style={{}} src="/images/yourapp.jpg" alt="" />
 
        <div className='h-100 d-flex flex-column justify-content-center align-items-center' style={{width:'500px'}}>
-           <img src="public/images/clock.png" className='img-fluid top-0 end-0 h-25' alt="" />
+           <img src="/images/clock.png" className='img-fluid top-0 end-0 h-25' alt="" />
           <h1 className='fw-bold w-100 ' style={{color:'#f5f5dc'}}>View all your appointments</h1>
             <div className='position-relative d-flex flex-row align-items-center bg-light rounded rounded-3 w-100' style={{height:'60px'}}>
               <input class="form-control w-100 h-100" type="text" placeholder="Look-up your appointment" aria-label="default input example"/>
