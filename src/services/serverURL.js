@@ -1,0 +1,1 @@
+export const serverURL="https://hospital-backend-1-p1dd.onrender.com"

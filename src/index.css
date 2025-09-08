@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#home::-webkit-scrollbar{
+    display: none;
+}
+#appoint::before{
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background-color: orange;
+    right:0;
+    width: 0.3%;
+    z-index: 1;
+    position: absolute;
+}
