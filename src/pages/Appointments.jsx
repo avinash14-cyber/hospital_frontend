@@ -24,7 +24,7 @@ const Appointments = () => {
     <>
     <div className='w-100 min-vh-100 '>
       <div className='w-100 ' style={{height:'400px'}}>
-        <img className='img-fluid w-100 h-100 ' style={{objectFit:'cover',objectPosition:'center'}} src="public/images/appointments.jpg" alt="" />
+        <img className='img-fluid w-100 h-100 ' style={{objectFit:'cover',objectPosition:'center'}} src="/images/appointments.jpg" alt="" />
       </div>
 
       <div className='w-100 d-flex justify-content-center flex-column text-wrap 'style={{height:'500px'}}>
