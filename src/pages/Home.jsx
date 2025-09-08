@@ -41,13 +41,7 @@ const Home = () => {
       </div>
       </Link>
   </div>
-  <div className="bg-primary shadow-lg d-flex flex-row align-items-center p-2 justify-content-between text-wrap" style={{ height: '140px', width: '330px' }}>
-    <FaStethoscope className='text-white fs-1'/>
-      <div className='p-2 d-flex justify-content-around h-100 flex-column'>
-      <h3 className='text-white text-center'> Doctors Portal</h3>
-      <p className='w-100 text-white'>Patient records of doctors</p>
-    </div>
-  </div>
+  
 </div>
        </div>
     </div>
